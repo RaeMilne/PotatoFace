@@ -5,9 +5,8 @@
 	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
 <circle fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="93.832" cy="121.24" r="64.4"/>
 <circle fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="234.164" cy="121.24" r="62.711"/>
-<circle cx="234.164" cy="121.239" r="31.86"/>
-<circle cx="93.832" cy="121.24" r="31.86"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="235.828" cy="112.239" r="14.499"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="93.832" cy="112.239" r="14.499"/>
-<rect x="9.5" y="12.83" width="309.918" height="29.34"/>
+<circle cx="234.164" cy="103.24" r="31.86"/>
+<circle cx="93.832" cy="103.24" r="31.86"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="235.828" cy="94.24" r="14.499"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="93.832" cy="94.239" r="14.499"/>
 </svg>

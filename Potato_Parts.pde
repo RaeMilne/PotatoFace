@@ -1,4 +1,5 @@
 class Part {
+
   int xPos;
   int yPos;
   int s;
@@ -16,7 +17,7 @@ class Part {
   }
 
   void drawButton(String _inputString) {
-    
+
     ellipseMode(CORNER);
 
     String inputString = _inputString;
@@ -25,14 +26,32 @@ class Part {
     {
       fill(0);
 
-      if (inputString.equals("nose")) {
-        drawNose();
+      if (inputString.equals("nose1")) {
+        drawNose1();
       } 
-      else if (inputString.equals("eyes")) {
-        drawEyes();
+      else if (inputString.equals("nose2")) {
+        drawNose2();
       } 
-      else if (inputString.equals("mouth")) {
-        drawMouth();
+      else if (inputString.equals("nose3")) {
+        drawNose3();
+      } 
+      else if (inputString.equals("eyes1")) {
+        drawEyes1();
+      } 
+      else if (inputString.equals("eyes2")) {
+        drawEyes2();
+      }  
+      else if (inputString.equals("eyes3")) {
+        drawEyes3();
+      } 
+      else if (inputString.equals("mouth1")) {
+        drawMouth1();
+      } 
+      else if (inputString.equals("mouth2")) {
+        drawMouth2();
+      }  
+      else if (inputString.equals("mouth3")) {
+        drawMouth3();
       }
     } 
     else if (!isPressed) {
@@ -76,22 +95,58 @@ class Part {
   }
 }
 
-
-void drawNose() {
-  PShape s;
-  s = loadShape("nose1.svg");
-  shape(s, 425, 160, 500, 300);
-}
-
-void drawEyes() {
+void drawEyes1() {
   PShape s;
   s = loadShape("eyes1.svg");
   shape(s, 400, 100, 450, 300);
 }
 
-void drawMouth() {
+void drawEyes2() {
+  PShape s;
+  s = loadShape("eyes2.svg");
+  shape(s, 400, 100, 450, 300);
+}
+
+void drawEyes3() {
+  PShape s;
+  s = loadShape("eyes3.svg");
+  shape(s, 400, 100, 450, 300);
+}
+
+void drawNose1() {
+  PShape s;
+  s = loadShape("nose1.svg");
+  shape(s, 425, 160, 500, 300);
+}
+
+void drawNose2() {
+  PShape s;
+  s = loadShape("nose2.svg");
+  shape(s, 400, 160, 450, 300);
+}
+
+void drawNose3() {
+  PShape s;
+  s = loadShape("nose3.svg");
+  shape(s, 400, 160, 450, 300);
+}
+
+
+void drawMouth1() {
   PShape s;
   s = loadShape("mouth1.svg");
-  shape(s, 400, 250, 400, 400);
+  shape(s, 400, 225, 400, 400);
+}
+
+void drawMouth2() {
+  PShape s;
+  s = loadShape("mouth2.svg");
+  shape(s, 400, 225, 400, 400);
+}
+
+void drawMouth3() {
+  PShape s;
+  s = loadShape("mouth3.svg");
+  shape(s, 400, 225, 400, 400);
 }
 
