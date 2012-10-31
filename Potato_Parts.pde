@@ -16,13 +16,14 @@ class Part {
   }
 
   void drawButton(String _inputString) {
+    
+    ellipseMode(CORNER);
 
     String inputString = _inputString;
 
-    if (isPressed == true)
+    if (isPressed)
     {
       fill(0);
-
 
       if (inputString.equals("nose")) {
         drawNose();
@@ -34,27 +35,27 @@ class Part {
         drawMouth();
       }
     } 
-    else if (isPressed == false) {
+    else if (!isPressed) {
       fill(255);
     }
 
-    if (isOver == true) 
+    if (isOver) 
     {
       stroke(255, 0, 0);
       strokeWeight(3);
     } 
-    else if (isOver == false) {
+    else if (!isOver) {
       noStroke();
       strokeWeight(0);
     }
 
-    rect(xPos, yPos, s, s);
+    ellipse(xPos, yPos, s, s);
   }
 
   void checkIfPressed (int _mx, int _my) {
     if ((_mx > xPos && _mx < xPos+s) && (_my > yPos && _my < yPos+s)) //if mouse within btn area
     {
-      if (isPressed == false)
+      if (!isPressed)
       {
         isPressed = true;
       }
@@ -79,18 +80,18 @@ class Part {
 void drawNose() {
   PShape s;
   s = loadShape("nose1.svg");
-  shape(s, 400, 150, 200, 200);
+  shape(s, 425, 160, 500, 300);
 }
 
 void drawEyes() {
   PShape s;
   s = loadShape("eyes1.svg");
-  shape(s, 400, 100, 200, 150);
+  shape(s, 400, 100, 450, 300);
 }
 
 void drawMouth() {
   PShape s;
   s = loadShape("mouth1.svg");
-  shape(s, 400, 275, 200, 200);
+  shape(s, 400, 250, 400, 400);
 }
 

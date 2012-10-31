@@ -3,28 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
-<circle cx="165.652" cy="181.467" r="133.391"/>
-<circle cx="398.021" cy="181.467" r="129.892"/>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<circle fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="93.832" cy="121.24" r="64.4"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="234.164" cy="121.24" r="62.711"/>
+<circle cx="234.164" cy="121.239" r="31.86"/>
+<circle cx="93.832" cy="121.24" r="31.86"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="235.828" cy="112.239" r="14.499"/>
+<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="93.832" cy="112.239" r="14.499"/>
+<rect x="9.5" y="12.83" width="309.918" height="29.34"/>
 </svg>
