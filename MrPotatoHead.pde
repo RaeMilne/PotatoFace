@@ -1,9 +1,9 @@
 
 int numRow = 3;
 int numCol = 3;
-int x1 = 50;
-int y1 = 50;
-int btnS = 30;
+int x1 = 75;
+int y1 = 75;
+int btnS = 60;
 
 
 Part[][] buttons = new Part[numRow][numCol];
@@ -50,6 +50,7 @@ void draw() {
     for (int i = 0 ; i < numRow; i++) {
 
       buttons[i][j].drawButton(parts[i][j]);
+       buttons[i][j].drawIcon(parts[i][j]);
     }
   }
 }
