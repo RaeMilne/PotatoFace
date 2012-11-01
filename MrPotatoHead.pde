@@ -50,7 +50,7 @@ void draw() {
     for (int i = 0 ; i < numRow; i++) {
 
       buttons[i][j].drawButton(parts[i][j]);
-       buttons[i][j].drawIcon(parts[i][j]);
+      buttons[i][j].drawIcon(parts[i][j]);
     }
   }
 }

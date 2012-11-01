@@ -56,13 +56,13 @@ void drawIcon(String _inputString) {
         drawNose3(xPos+s/4, yPos+s/4, noseW/szS, noseH/szS);
       } 
       else if (inputString.equals("eyes1")) {
-        drawEyes1(xPos+s/4, yPos+s/4, eyesW/szS, eyesH/szS);
+        drawEyes1(xPos+s/6, yPos+s/6, eyesW/szS, eyesH/szS);
       } 
       else if (inputString.equals("eyes2")) {
-        drawEyes2(xPos+s/4, yPos+s/4, eyesW/szS, eyesH/szS);
+        drawEyes2(xPos+s/6, yPos+s/6, eyesW/szS, eyesH/szS);
       }  
       else if (inputString.equals("eyes3")) {
-        drawEyes3(xPos+s/4, yPos+s/4, eyesW/szS, eyesH/szS);
+        drawEyes3(xPos+s/6, yPos+s/6, eyesW/szS, eyesH/szS);
       } 
       else if (inputString.equals("mouth1")) {
         drawMouth1(xPos+s/4, yPos+s/4, mouthW/szS, mouthH/szS);
