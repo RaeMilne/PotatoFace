@@ -2,9 +2,20 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
-<rect x="78.242" y="74.5" width="202" height="104"/>
-<rect x="116.516" y="83.5" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" width="36.484" height="63.065"/>
-<rect x="161" y="83.5" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" width="36.484" height="63.066"/>
-<rect x="205.484" y="83.5" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-miterlimit="10" width="36.484" height="63.066"/>
+	 width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
+<g>
+	<path d="M103,187.219c0-11,9-20,20-20h331.5c11,0,20,9,20,20v161.559c0,11-9,20-20,20H123c-11,0-20-9-20-20V187.219z"/>
+</g>
+<g>
+	<path fill="#FFFFFF" d="M135.516,208.219c0-11,9-20,20-20h101.48c11,0,20,9,20,20v204.559c0,11-9,20-20,20h-101.48
+		c-11,0-20-9-20-20V208.219z"/>
+	<path fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" d="M135.516,208.219c0-11,9-20,20-20h101.48
+		c11,0,20,9,20,20v204.559c0,11-9,20-20,20h-101.48c-11,0-20-9-20-20V208.219z"/>
+</g>
+<g>
+	<path fill="#FFFFFF" d="M299.02,208.219c0-11,9-20,20-20H420.5c11,0,20,9,20,20v204.562c0,11-9,20-20,20H319.02c-11,0-20-9-20-20
+		V208.219z"/>
+	<path fill="none" stroke="#000000" stroke-width="12" stroke-miterlimit="10" d="M299.02,208.219c0-11,9-20,20-20H420.5
+		c11,0,20,9,20,20v204.562c0,11-9,20-20,20H319.02c-11,0-20-9-20-20V208.219z"/>
+</g>
 </svg>

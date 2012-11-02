@@ -2,11 +2,17 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
-<circle fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="93.832" cy="121.24" r="64.4"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="234.164" cy="121.24" r="62.711"/>
-<circle cx="234.164" cy="103.24" r="31.86"/>
-<circle cx="93.832" cy="103.24" r="31.86"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="235.828" cy="94.24" r="14.499"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="93.832" cy="94.239" r="14.499"/>
+	 width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="160.686" cy="318.693" rx="130.051" ry="128.489"/>
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-width="6" stroke-miterlimit="10" cx="444.077" cy="318.692" rx="126.641" ry="125.118"/>
+<ellipse cx="444.077" cy="282.78" rx="64.339" ry="63.566"/>
+<ellipse cx="160.686" cy="282.78" rx="64.339" ry="63.566"/>
+<ellipse fill="#FFFFFF" cx="447.438" cy="264.823" rx="29.279" ry="28.927"/>
+<ellipse fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="160.686" cy="264.821" rx="29.28" ry="28.927"/>
+<ellipse fill="#FFFFFF" cx="417.506" cy="303" rx="14.257" ry="14.086"/>
+<ellipse fill="#FFFFFF" cx="125.475" cy="295.527" rx="14.258" ry="14.086"/>
+<path d="M365.972,180.205c22.832-13.598,49.559-21.431,78.105-21.431c28.546,0,55.274,7.833,78.105,21.431h53.634
+	c-33.603-33.625-80.246-54.5-131.739-54.5c-51.491,0-98.135,20.875-131.737,54.5H365.972z"/>
+<path d="M76.17,180.205c24.333-15.676,53.364-24.801,84.516-24.801c31.151,0,60.184,9.125,84.516,24.801h51.986
+	c-34.377-35.633-82.86-57.869-136.501-57.869S58.562,144.572,24.184,180.205H76.17z"/>
 </svg>

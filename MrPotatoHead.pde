@@ -6,7 +6,7 @@ int y1 = 75;
 int btnS = 60;
 
 
-Part[][] buttons = new Part[numRow][numCol];
+Part[][] buttons = new Part[numRow][numCol]; 
 
 String[][] partName = 
 
@@ -24,37 +24,25 @@ String[][] partName =
   }
 };
 
-int[][] xPart =
-{
-  {400, 400, 400},
-  {400, 400, 400},
-  {400, 400, 400}
-};
+int xPart = 415;
 
 int[][] yPart =
 {
-  {100, 160, 225},
-  {100, 160, 225},
-  {100, 160, 225}
+  {
+    75, 160, 250
+  }
+  , 
+  {
+    75, 165, 250
+  }
+  , 
+  {
+    75, 150, 250
+  }
 };
 
-int[][] wPart =
-{
-  {450, 450, 400},
-  {450, 450, 400},
-  {450, 450, 400}
-};
+int szPart = 125;
 
-int[][] htPart =
-{
-  {300, 300, 400},
-  {300, 300, 400},
-  {300, 300, 400}
-};
-
-
-    
-    
 
 PImage img;
 
@@ -74,8 +62,8 @@ void setup() {
 
 void draw() {
 
-  background(150);
-  
+  background(#AEE0E8);
+
   int x1 = 75;
   int y1 = 75;
 
@@ -84,8 +72,8 @@ void draw() {
   for (int j = 0 ; j < numCol ; j++) {
     for (int i = 0 ; i < numRow; i++) {
 
-      buttons[i][j].drawIcon(partName[i][j], x1*(i+1)+btnS/4, y1*(j+1)+btnS/4, wPart[i][j]/4, htPart[i][j]/4);
-      buttons[i][j].drawButton(partName[i][j], xPart[i][j], yPart[i][j], wPart[i][j], htPart[i][j]);
+      buttons[i][j].drawButton(partName[i][j], xPart, yPart[i][j], szPart);
+      buttons[i][j].drawIcon(partName[i][j], x1*(i+1)+10, y1*(j+1)+10, szPart/3);
     }
   }
 }

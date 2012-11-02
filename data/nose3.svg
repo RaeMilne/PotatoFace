@@ -2,6 +2,10 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
-<circle fill="#C1272D" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="83.608" cy="77.957" r="66.304"/>
+	 width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
+<path fill="#EB2C3B" stroke="#000000" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M442.212,230.5H134.86c-36.542,0-66.165,40.941-66.165,91.444c0,50.502,29.623,91.444,66.165,91.444h307.352
+	c36.542,0,66.165-40.94,66.165-91.444C508.377,271.441,478.754,230.5,442.212,230.5z"/>
+<path fill="#FFFFFF" d="M439.718,271.046c0,6.441-4.691,11.664-10.478,11.664H160.806c-5.787,0-10.478-5.222-10.478-11.664l0,0
+	c0-6.442,4.691-11.664,10.478-11.664H429.24C435.027,259.382,439.718,264.604,439.718,271.046L439.718,271.046z"/>
 </svg>

@@ -2,9 +2,20 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1024px" height="768px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
-<path d="M234.164,183.951c34.634,0,62.711-28.077,62.711-62.711H171.453C171.453,155.875,199.53,183.951,234.164,183.951z"/>
-<path d="M91.351,185.64c35.567,0,64.4-28.833,64.4-64.4h-128.8C26.951,156.807,55.783,185.64,91.351,185.64z"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="91.351" cy="140.53" r="13.148"/>
-<circle fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" cx="234.164" cy="140.53" r="13.148"/>
+	 width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
+<path d="M452.553,394.522c67.226,0,121.727-51.504,121.727-115.035H330.825C330.825,343.019,385.324,394.522,452.553,394.522z"/>
+<path d="M146.45,397.619c69.037,0,125.005-52.889,125.005-118.132H21.446C21.446,344.73,77.411,397.619,146.45,397.619z"/>
+<g>
+	<path d="M288.919,264.28c0,11.466-9.171,20.848-20.379,20.848H24.361c-11.208,0-20.379-9.381-20.379-20.848v-26.972
+		c0-11.466,9.171-20.848,20.379-20.848H268.54c11.208,0,20.379,9.381,20.379,20.848V264.28z"/>
+</g>
+<g>
+	<path d="M595.019,264.28c0,11.466-9.171,20.848-20.379,20.848H330.462c-11.208,0-20.379-9.381-20.379-20.848v-26.972
+		c0-11.466,9.171-20.848,20.379-20.848h244.177c11.208,0,20.379,9.381,20.379,20.848L595.019,264.28L595.019,264.28z"/>
+</g>
+<rect x="261.037" y="233.029" width="81.197" height="35.529"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" d="M57.496,302.564
+	c0,0,7.133,44.823,57.062,65.671"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-miterlimit="10" d="M368.23,301.042
+	c0,0,7.133,44.822,57.062,65.67"/>
 </svg>

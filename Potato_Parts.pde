@@ -6,7 +6,7 @@ class Part {
   boolean isPressed;
   boolean isOver;
 
-  
+
   Part(int _xPos, int _yPos, int _s) {
 
     xPos = _xPos;
@@ -15,27 +15,24 @@ class Part {
 
     isPressed = false;
     isOver = false;
-
   }
 
 
-void drawIcon(String _inputString, int _xPos, int _yPos, int _sizeX, int _sizeY) 
-{
-
-  drawPart(_inputString, _xPos, _yPos, _sizeX, _sizeY);
-  
-}
-
-  void drawButton(String _inputString, int _xPos, int _yPos, int _sizeX, int _sizeY) 
+  void drawIcon(String _inputString, int _xPos, int _yPos, int _size) 
   {
 
-  ellipseMode(CORNER);
+    drawPart(_inputString, _xPos, _yPos, _size);
+  }
+
+  void drawButton(String _inputString, int _xPos, int _yPos, int _size) 
+  {
+
+    ellipseMode(CORNER);
 
     if (isPressed)
     {
       fill(0, 50);
-      drawPart(_inputString, _xPos, _yPos, _sizeX, _sizeY);
-     
+      drawPart(_inputString, _xPos, _yPos, _size);
     } 
     else if (!isPressed) {
       fill(255, 50);
@@ -47,7 +44,7 @@ void drawIcon(String _inputString, int _xPos, int _yPos, int _sizeX, int _sizeY)
       strokeWeight(3);
     } 
     else if (!isOver) {
-      stroke(192, 192, 192);
+      stroke(100, 100, 100);
       strokeWeight(1);
     }
 
@@ -79,9 +76,9 @@ void drawIcon(String _inputString, int _xPos, int _yPos, int _sizeX, int _sizeY)
 }
 
 
-void drawPart(String _inputString, int _x1,int _y1,int _sizeX, int _sizeY) {
+void drawPart(String _inputString, int _x1, int _y1, int _size) {
   PShape s;
   s = loadShape(_inputString);
-  shape(s, _x1, _y1, _sizeX, _sizeY);
+  shape(s, _x1, _y1, _size, _size);
 }
 
