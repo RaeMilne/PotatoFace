@@ -8,21 +8,53 @@ int btnS = 60;
 
 Part[][] buttons = new Part[numRow][numCol];
 
-String[][] parts = 
+String[][] partName = 
 
 { 
   {
-    "eyes1", "nose1", "mouth1"
+    "eyes1.svg", "nose1.svg", "mouth1.svg"
   }
   , 
   {
-    "eyes2", "nose2", "mouth2"
+    "eyes2.svg", "nose2.svg", "mouth2.svg"
   }
   , 
   {
-    "eyes3", "nose3", "mouth3"
+    "eyes3.svg", "nose3.svg", "mouth3.svg"
   }
 };
+
+int[][] xPart =
+{
+  {400, 400, 400},
+  {400, 400, 400},
+  {400, 400, 400}
+};
+
+int[][] yPart =
+{
+  {100, 160, 225},
+  {100, 160, 225},
+  {100, 160, 225}
+};
+
+int[][] wPart =
+{
+  {450, 450, 400},
+  {450, 450, 400},
+  {450, 450, 400}
+};
+
+int[][] htPart =
+{
+  {300, 300, 400},
+  {300, 300, 400},
+  {300, 300, 400}
+};
+
+
+    
+    
 
 PImage img;
 
@@ -43,14 +75,17 @@ void setup() {
 void draw() {
 
   background(150);
+  
+  int x1 = 75;
+  int y1 = 75;
 
   image(img, 0, 0);
 
   for (int j = 0 ; j < numCol ; j++) {
     for (int i = 0 ; i < numRow; i++) {
 
-      buttons[i][j].drawButton(parts[i][j]);
-      buttons[i][j].drawIcon(parts[i][j]);
+      buttons[i][j].drawIcon(partName[i][j], x1*(i+1)+btnS/4, y1*(j+1)+btnS/4, wPart[i][j]/4, htPart[i][j]/4);
+      buttons[i][j].drawButton(partName[i][j], xPart[i][j], yPart[i][j], wPart[i][j], htPart[i][j]);
     }
   }
 }
