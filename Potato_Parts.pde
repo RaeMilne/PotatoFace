@@ -31,11 +31,11 @@ class Part {
 
     if (isPressed)
     {
-      fill(0, 50);
+      fill(0, 60);
       drawPart(_inputString, _xPos, _yPos, _size);
     } 
     else if (!isPressed) {
-      fill(255, 50);
+      fill(255, 75);
     }
 
     if (isOver) 
